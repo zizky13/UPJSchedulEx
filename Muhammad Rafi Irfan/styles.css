@@ -1,0 +1,68 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #fff200;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+h1 {
+  margin-bottom: 0;
+}
+.subtitle {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #fff200
+}
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+}
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #fff200;
+  border-bottom: 2px solid #fff200;
+  padding-bottom: 5px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact-info a {
+  color: #fff200;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.card {
+    background-color: #919191;
+    color: #f4f4f4;
+}
